@@ -1,0 +1,12 @@
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.core\bin\Debug\net6.0\clean.core.deps.json
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.core\bin\Debug\net6.0\clean.core.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.core\bin\Debug\net6.0\clean.core.pdb
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.core\obj\Debug\net6.0\clean.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.core\obj\Debug\net6.0\clean.core.AssemblyInfoInputs.cache
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.core\obj\Debug\net6.0\clean.core.AssemblyInfo.cs
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.core\obj\Debug\net6.0\clean.core.csproj.CoreCompileInputs.cache
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.core\obj\Debug\net6.0\clean.core.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.core\obj\Debug\net6.0\refint\clean.core.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.core\obj\Debug\net6.0\clean.core.pdb
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.core\obj\Debug\net6.0\ref\clean.core.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.core\obj\Debug\net6.0\clean.core.csproj.AssemblyReference.cache
