@@ -1,0 +1,17 @@
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\bin\Debug\net6.0\clean.Data.deps.json
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\bin\Debug\net6.0\clean.Data.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\bin\Debug\net6.0\clean.Data.pdb
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\bin\Debug\net6.0\clean.core.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\bin\Debug\net6.0\clean.core.pdb
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\obj\Debug\net6.0\clean.Data.csproj.AssemblyReference.cache
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\obj\Debug\net6.0\clean.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\obj\Debug\net6.0\clean.Data.AssemblyInfoInputs.cache
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\obj\Debug\net6.0\clean.Data.AssemblyInfo.cs
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\obj\Debug\net6.0\clean.Data.csproj.CoreCompileInputs.cache
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\obj\Debug\net6.0\clean.Data.csproj.CopyComplete
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\obj\Debug\net6.0\clean.Data.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\obj\Debug\net6.0\refint\clean.Data.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\obj\Debug\net6.0\clean.Data.pdb
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\obj\Debug\net6.0\ref\clean.Data.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\bin\Debug\net6.0\clean.Data.runtimeconfig.json
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Data\obj\Debug\net6.0\clean.Data.genruntimeconfig.cache
