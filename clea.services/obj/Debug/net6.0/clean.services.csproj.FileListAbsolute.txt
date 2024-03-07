@@ -1,0 +1,15 @@
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clea.services\bin\Debug\net6.0\clean.services.deps.json
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clea.services\bin\Debug\net6.0\clean.services.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clea.services\bin\Debug\net6.0\clean.services.pdb
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clea.services\bin\Debug\net6.0\clean.core.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clea.services\bin\Debug\net6.0\clean.core.pdb
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clea.services\obj\Debug\net6.0\clean.services.csproj.AssemblyReference.cache
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clea.services\obj\Debug\net6.0\clean.services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clea.services\obj\Debug\net6.0\clean.services.AssemblyInfoInputs.cache
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clea.services\obj\Debug\net6.0\clean.services.AssemblyInfo.cs
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clea.services\obj\Debug\net6.0\clean.services.csproj.CoreCompileInputs.cache
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clea.services\obj\Debug\net6.0\clean.services.csproj.CopyComplete
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clea.services\obj\Debug\net6.0\clean.services.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clea.services\obj\Debug\net6.0\refint\clean.services.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clea.services\obj\Debug\net6.0\clean.services.pdb
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clea.services\obj\Debug\net6.0\ref\clean.services.dll
