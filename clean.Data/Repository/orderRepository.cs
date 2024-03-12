@@ -30,13 +30,13 @@ namespace clean.Data.Repository
             }
             return null;
         }
-        public void Add(order ord)
+        public async Task AddAsync(order ord)
         {
             order new_order = new order { orderNum = ord.orderNum, Status = ord.Status, orderSum = ord.orderSum, orderDate = ord.orderDate , customerId=ord.customerId};
             _context.Orders.Add(new_order);
-            //_context.SaveChanges();
+           await _context.SaveChangesAsync();
         }
-        public void Update(order order, int oNum)
+        public async Task UpdateAsync(order order, int oNum)
         {
             foreach (order ord in _context.Orders)
             {
@@ -46,7 +46,7 @@ namespace clean.Data.Repository
                     ord.orderNum = order.orderNum;
                     ord.orderSum = order.orderSum;
                     ord.orderDate = order.orderDate;
-                    _context.SaveChanges();
+                   await _context.SaveChangesAsync();
                 }
 
             }

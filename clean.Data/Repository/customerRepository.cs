@@ -14,7 +14,6 @@ namespace clean.Data.Repository
         public customerRepository(DataContext context)
         {
             _context = context;
-            _context.SaveChanges();
         }
         public List<customer> GetList()
         {
@@ -29,13 +28,13 @@ namespace clean.Data.Repository
             }
             return null;
         }
-        public void Add(customer customer)
+        public async Task AddAsync(customer customer)
         {
             customer new_customer = new customer { Id = customer.Id, Name = customer.Name, Age = customer.Age, City = customer.City, HMO = customer.HMO };
             _context.Customers.Add(new_customer);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
-        public void Update(customer customer, int id)
+        public async Task UpdateAsync(customer customer, int id)
         {
             customer update_customer = new customer { Id = customer.Id, Name = customer.Name, Age = customer.Age, City = customer.City, HMO = customer.HMO };
             foreach (customer cust in _context.Customers)
@@ -47,7 +46,7 @@ namespace clean.Data.Repository
                     cust.Age = update_customer.Age;
                     cust.City = update_customer.City;
                     cust.HMO = update_customer.HMO;
-                    _context.SaveChanges();
+                   await _context.SaveChangesAsync();
                 }
 
             }

@@ -14,11 +14,9 @@ namespace clean.Data.Repository
         public productRepository(DataContext context)
         {
             _context = context;
-            _context.SaveChanges();
         }
         public List<product> GetList()
         {
-            //_context.SaveChanges();
             return _context.Products.ToList();
         }
         public product GetById(string barcode)
@@ -26,19 +24,17 @@ namespace clean.Data.Repository
             foreach (product product in _context.Products)
             {
                 if (product.Barcode == barcode)
-                    //_context.SaveChanges();
                     return product;
             }
-            //_context.SaveChanges();
             return null;
         }
-        public void Add(product product)
+        public async Task AddAsync(product product)
         {
             product new_product = new product { Barcode = product.Barcode, Price = product.Price, ProdName = product.ProdName, Brand = product.Brand };
             _context.Products.Add(new_product);
-            _context.SaveChanges();
+           await _context.SaveChangesAsync();
         }
-        public void Update(product prod, string barcode)
+        public async Task UpdateAsync(product prod, string barcode)
         {
             foreach (var product in _context.Products)
             {
@@ -48,19 +44,19 @@ namespace clean.Data.Repository
                     product.Price = prod.Price;
                     product.ProdName = prod.ProdName;
                     product.Brand = prod.Brand;
-                    _context.SaveChanges();
+                   await _context.SaveChangesAsync();
                 }
             }
           
         }
-        public void Remove(string barcode)
+        public async Task RemoveAsync(string barcode)
         {
             foreach (var prod in _context.Products)
             {
                 if (prod.Barcode.Equals(barcode))
                 {
                     _context.Products.Remove(prod);
-                    _context.SaveChanges();
+                  await  _context.SaveChangesAsync();
                 }
             }
         }
