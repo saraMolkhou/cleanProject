@@ -45,14 +45,14 @@ namespace clean.Api.Controllers
         public void Post([FromBody] orderPostModel value)
         {
             var newOrder = new order { orderNum = value.orderNum, orderSum = value.orderSum, orderDate = value.orderDate, customerId = value.customerId };
-            _orderServies.AddOrder(newOrder);
+            _orderServies.AddOrderAsync(newOrder);
         }
 
         // PUT api/<ordersController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] order value)
         {
-            _orderServies.UpdateOrder(value, id);
+            _orderServies.UpdateOrderAsync(value, id);
         }
     }
 }

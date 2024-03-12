@@ -34,21 +34,21 @@ namespace clean.Api.Controllers
         [HttpPost]
         public void Post([FromBody] product value)
         {
-            _productsServies.AddProduct(value);
+            _productsServies.AddProductAsync(value);
         }
 
         // PUT api/<productsController>/5
         [HttpPut("{id}")]
         public void Put(string barcode, [FromBody] product value)
         {
-            _productsServies.UpdateProduct(value, barcode);
+            _productsServies.UpdateProductAsync(value, barcode);
         }
 
         // DELETE api/<productsController>/5
         [HttpDelete("{id}")]
         public void Delete(string barcode)
         {
-            _productsServies.DeleteProduct(barcode);
+            _productsServies.DeleteProductAsync(barcode);
         }
     }
 }
