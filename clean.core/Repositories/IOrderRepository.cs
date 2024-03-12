@@ -11,7 +11,7 @@ namespace clean.core.Repositories
     {
         List<order> GetList();
         order GetById(int oNum);
-        void Add(order ord);
-        void Update(order order, int oNum);
+        Task AddAsync(order ord);
+        Task UpdateAsync(order order, int oNum);
     }
 }

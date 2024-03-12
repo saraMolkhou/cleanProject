@@ -11,7 +11,7 @@ namespace clean.core.Repositories
     {
         List<customer> GetList();
          customer GetById(int id);
-        void Add(customer customer);
-        void Update(customer customer, int id);
+        Task AddAsync(customer customer);
+        Task UpdateAsync(customer customer, int id);
     }
 }

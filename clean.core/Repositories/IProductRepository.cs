@@ -11,8 +11,8 @@ namespace clean.core.Repositories
     {
         List<product> GetList();
         product GetById(string barcode);
-        void Add(product product);
-        void Update(product prod, string barcode);
-        void Remove(string barcode);
+        Task AddAsync(product product);
+        Task UpdateAsync(product prod, string barcode);
+        Task RemoveAsync(string barcode);
     }
 }
