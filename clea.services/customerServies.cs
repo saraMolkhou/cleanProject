@@ -18,13 +18,29 @@ namespace clean.services
         {
             return _customerRepository.GetById(id);
         }
-        public void AddCustomer(customer customer)
+        public async Task AddCustomerAsync(customer customer)
         {
-             _customerRepository.Add(customer);
+            await _customerRepository.AddAsync(customer);
         }
-        public void UpdateCustomer(customer customer, int id)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        public async Task UpdateCustomerAsync(customer customer, int id)
         {
-            _customerRepository.Update(customer, id);
+           await _customerRepository.UpdateAsync(customer, id);
         }
     }
 }

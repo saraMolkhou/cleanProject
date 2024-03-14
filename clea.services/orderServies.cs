@@ -23,13 +23,13 @@ namespace clean.services
         {
             return _orderRepository.GetById(id);
         }
-        public void AddOrder(order ord)
+        public async Task AddOrderAsync(order ord)
         {
-            _orderRepository.Add(ord);
+           await  _orderRepository.AddAsync(ord);
         }
-        public void UpdateOrder(order ord, int num)
+        public async Task UpdateOrderAsync(order ord, int num)
         {
-            _orderRepository.Update(ord, num);
+           await _orderRepository.UpdateAsync(ord, num);
         }
     }
 }

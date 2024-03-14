@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "s+RjFAccOz2Noh8bN3SZ45BBKivx4MwcKYSOxrqunBfaid3PcHIo56tYyW7Id5cX8UOlxWgJ7D+7Hcz4USyeiA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saram\\OneDrive\\מסמכים\\שרה\\c#\\cli\\cli.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saram\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512"
+  ],
+  "logs": []
+}

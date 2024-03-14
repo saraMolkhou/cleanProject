@@ -1,0 +1,14 @@
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\enums\bin\Debug\net7.0\enums.exe
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\enums\bin\Debug\net7.0\enums.deps.json
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\enums\bin\Debug\net7.0\enums.runtimeconfig.json
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\enums\bin\Debug\net7.0\enums.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\enums\bin\Debug\net7.0\enums.pdb
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\enums\obj\Debug\net7.0\enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\enums\obj\Debug\net7.0\enums.AssemblyInfoInputs.cache
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\enums\obj\Debug\net7.0\enums.AssemblyInfo.cs
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\enums\obj\Debug\net7.0\enums.csproj.CoreCompileInputs.cache
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\enums\obj\Debug\net7.0\enums.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\enums\obj\Debug\net7.0\refint\enums.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\enums\obj\Debug\net7.0\enums.pdb
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\enums\obj\Debug\net7.0\enums.genruntimeconfig.cache
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\enums\obj\Debug\net7.0\ref\enums.dll

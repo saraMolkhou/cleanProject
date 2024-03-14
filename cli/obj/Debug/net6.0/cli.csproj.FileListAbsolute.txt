@@ -1,0 +1,4 @@
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\cli\obj\Debug\net6.0\cli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\cli\obj\Debug\net6.0\cli.AssemblyInfoInputs.cache
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\cli\obj\Debug\net6.0\cli.AssemblyInfo.cs
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\cli\obj\Debug\net6.0\cli.csproj.CoreCompileInputs.cache

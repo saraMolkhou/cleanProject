@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8' />
+
+    <script src='https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js'></script>
+    <script>
+
+        // document.addEventListener('DOMContentLoaded', function () {
+        //     console.log(FullCalendar.version);
+        //     var calendarEl = document.getElementById('calendar');
+        //     var calendar = new FullCalendar.Calendar(calendarEl, {
+        //         initialView: 'dayGridMonth',
+        //     });
+        //     axios.get('https://eventsapi.onrender.com/api/Events').then(function (res) {
+        //         var events = res.data;
+        //         calendar.addEventSource(events);
+        //         events = events.map(function (event) {
+        //         return {
+        //             title: event.title,
+        //             start: new Date(event.start).toISOString(),
+        //             end: new Date(event.end).toISOString()
+        //         };
+        //     })
+
+        //         .catch(function (error) {
+        //             console.log("error: ", error)
+        //         })
+        //     document.getElementById('addEventForm').addEventListener('submit', function (event) {
+        //         event.preventDefault();
+        //         let title = document.getElementById('eventTitle').value;
+        //         let date = document.getElementById('eventDate').value;
+                
+        //         axios.post('https://eventsapi.onrender.com/api/Events', { 'title': title, 'date': date }
+                  
+        //         ).then(function (res) {
+        //             console.log("the new task: ", res.data);
+        //            calendar.addEvent(res.data);
+        //             document.getElementById('addEventForm').reset();
+        //         }).catch(function (error) {
+        //             console.log("Error:", error);
+        //         })
+
+
+        //     })
+        //     calendar.render();
+        // });
+        document.addEventListener('DOMContentLoaded', function () {
+    var calendarEl = document.getElementById('calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth'
+    });
+
+    axios.get('https://localhost:7008/api/Event')
+        .then(function (res) {
+            var events = res.data;
+
+            // Convert date strings to ISO format
+            events = events.map(function (event) {
+                return {
+                    title: event.title,
+                    start: new Date(event.start).toISOString(),
+                    end: new Date(event.end).toISOString()
+                };
+            });
+
+            console.log("Events from server:", events);
+            calendar.addEventSource(events);
+        })
+        .catch(function (error) {
+            console.log("Error fetching events: ", error);
+        });
+
+    document.getElementById('addEventForm').addEventListener('submit', function (event) {
+        // event.preventDefault();
+        let title = document.getElementById('eventTitle').value;
+        let date = document.getElementById('eventDate').value;
+
+        axios.post('https://localhost:7008/api/Event', { 'title': title, 'date': date })
+            .then(function (res) {
+                console.log("the new task: ", res.data);
+                calendar.addEvent({
+                    title: res.data.title,
+                    start: new Date(res.data.start).toISOString(),
+                    end: new Date(res.data.end).toISOString()
+                });
+                document.getElementById('addEventForm').reset();
+            })
+            .catch(function (error) {
+                console.log("Error:", error);
+            });
+    });
+
+    calendar.render();
+});
+
+    </script>
+</head>
+
+<body>
+    <div id='calendar'></div>
+    <form id="addEventForm">
+        <input id="eventTitle" type="text" required placeholder="enter a title for your event">
+        <input id="eventDate" type="date" required placeholder="enter a date for your event">
+        <button type="submit">add event</button>
+    </form>
+</body>
+
+</html>

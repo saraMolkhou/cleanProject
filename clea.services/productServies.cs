@@ -23,17 +23,17 @@ namespace clean.services
         {
             return _productRepository.GetById(barcode);
         }
-        public void AddProduct(product prod)
+        public async Task AddProductAsync(product prod)
         {
-            _productRepository.Add(prod);
+          await  _productRepository.AddAsync(prod);
         }
-        public void UpdateProduct(product prod, string barcode)
+        public async Task UpdateProductAsync(product prod, string barcode)
         {
-            _productRepository.Update(prod, barcode);
+           await _productRepository.UpdateAsync(prod, barcode);
         }
-        public void DeleteProduct(string barcode)
+        public async Task DeleteProductAsync(string barcode)
         {
-            _productRepository.Remove(barcode);
+           await _productRepository.RemoveAsync(barcode);
         }
     }
 }

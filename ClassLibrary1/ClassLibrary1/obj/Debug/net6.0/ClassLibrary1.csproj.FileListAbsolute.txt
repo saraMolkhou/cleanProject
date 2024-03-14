@@ -1,0 +1,23 @@
+Y:\תשפד\כיתות ה ו\קמאטק שנה ב\רחל וייס\c#\שרה\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\ClassLibrary1.deps.json
+Y:\תשפד\כיתות ה ו\קמאטק שנה ב\רחל וייס\c#\שרה\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\ClassLibrary1.dll
+Y:\תשפד\כיתות ה ו\קמאטק שנה ב\רחל וייס\c#\שרה\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\ClassLibrary1.pdb
+Y:\תשפד\כיתות ה ו\קמאטק שנה ב\רחל וייס\c#\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.csproj.AssemblyReference.cache
+Y:\תשפד\כיתות ה ו\קמאטק שנה ב\רחל וייס\c#\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+Y:\תשפד\כיתות ה ו\קמאטק שנה ב\רחל וייס\c#\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.AssemblyInfoInputs.cache
+Y:\תשפד\כיתות ה ו\קמאטק שנה ב\רחל וייס\c#\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.AssemblyInfo.cs
+Y:\תשפד\כיתות ה ו\קמאטק שנה ב\רחל וייס\c#\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+Y:\תשפד\כיתות ה ו\קמאטק שנה ב\רחל וייס\c#\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.dll
+Y:\תשפד\כיתות ה ו\קמאטק שנה ב\רחל וייס\c#\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\refint\ClassLibrary1.dll
+Y:\תשפד\כיתות ה ו\קמאטק שנה ב\רחל וייס\c#\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.pdb
+Y:\תשפד\כיתות ה ו\קמאטק שנה ב\רחל וייס\c#\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ref\ClassLibrary1.dll
+C:\Users\saram\Downloads\jm_x-WmIWMg9EKeehX\שרה\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\ClassLibrary1.deps.json
+C:\Users\saram\Downloads\jm_x-WmIWMg9EKeehX\שרה\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\ClassLibrary1.dll
+C:\Users\saram\Downloads\jm_x-WmIWMg9EKeehX\שרה\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\ClassLibrary1.pdb
+C:\Users\saram\Downloads\jm_x-WmIWMg9EKeehX\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saram\Downloads\jm_x-WmIWMg9EKeehX\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.AssemblyInfoInputs.cache
+C:\Users\saram\Downloads\jm_x-WmIWMg9EKeehX\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.AssemblyInfo.cs
+C:\Users\saram\Downloads\jm_x-WmIWMg9EKeehX\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\saram\Downloads\jm_x-WmIWMg9EKeehX\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.dll
+C:\Users\saram\Downloads\jm_x-WmIWMg9EKeehX\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\refint\ClassLibrary1.dll
+C:\Users\saram\Downloads\jm_x-WmIWMg9EKeehX\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ClassLibrary1.pdb
+C:\Users\saram\Downloads\jm_x-WmIWMg9EKeehX\שרה\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ref\ClassLibrary1.dll
