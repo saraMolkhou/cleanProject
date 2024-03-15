@@ -1,3 +1,4 @@
+using clean.Api.middleware;
 using clean.core;
 using clean.core.Repositories;
 using clean.Data;
@@ -41,7 +42,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.UseMiddleware<ShabbatMiddleware>();
 app.MapControllers();
 
 app.Run();
