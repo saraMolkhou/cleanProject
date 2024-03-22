@@ -74,3 +74,5 @@ C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Api\bin\Debug\net6.0\runtim
 C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Api\obj\Debug\net6.0\clean.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Api\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\saram\OneDrive\מסמכים\שרה\c#\clean.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

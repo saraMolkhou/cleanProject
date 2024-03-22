@@ -16,6 +16,7 @@ namespace clean.Api.middleware
             if(true)
             {
                 context.Response.StatusCode = StatusCodes.Status400BadRequest;
+                Console.WriteLine("האתר שומר שבת ");
                 await context.Response.WriteAsync("האתר שומר שבת");
             }
              await _next(context);
