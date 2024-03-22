@@ -1,5 +1,0 @@
-Y:\חדש- מורות\ShimonovichMiriam\5784\Seminar\Lesson4\Properties\Properties\obj\Debug\net6.0\Properties.csproj.AssemblyReference.cache
-Y:\חדש- מורות\ShimonovichMiriam\5784\Seminar\Lesson4\Properties\Properties\obj\Debug\net6.0\Properties.GeneratedMSBuildEditorConfig.editorconfig
-Y:\חדש- מורות\ShimonovichMiriam\5784\Seminar\Lesson4\Properties\Properties\obj\Debug\net6.0\Properties.AssemblyInfoInputs.cache
-Y:\חדש- מורות\ShimonovichMiriam\5784\Seminar\Lesson4\Properties\Properties\obj\Debug\net6.0\Properties.AssemblyInfo.cs
-Y:\חדש- מורות\ShimonovichMiriam\5784\Seminar\Lesson4\Properties\Properties\obj\Debug\net6.0\Properties.csproj.CoreCompileInputs.cache
